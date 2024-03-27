@@ -16,6 +16,7 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import php from "./tech/php.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -24,14 +25,24 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import muhc from "./company/muhc.png";
+import clife from "./company/clife.jpeg";
 import tesla from "./company/tesla.png";
+import inlibro from "./company/inlibro.jpeg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+
+
+import loml from "./loml.png";
+import py_flask from "./py-flask.png";
+
 
 export {
   logo,
+  py_flask,
+  php,
+  loml,
+  inlibro,
+  clife,
   backend,
   creator,
   mobile,
@@ -55,8 +66,7 @@ export {
   meta,
   shopify,
   starbucks,
+  muhc,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+ 
 };

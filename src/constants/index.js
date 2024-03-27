@@ -3,8 +3,11 @@ import {
   backend,
   creator,
   web,
+  loml,
+  py_flask,
   javascript,
   typescript,
+  php,
   html,
   css,
   reactjs,
@@ -19,10 +22,10 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
+  muhc,
+  clife,
+  inlibro
 } from "../assets";
 
 export const navLinks = [
@@ -80,6 +83,10 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
+  {
+    name: "PHP",
+    icon: php,
+  },
   // {
   //   name: "Tailwind CSS",
   //   icon: tailwind,
@@ -111,11 +118,40 @@ const technologies = [
 ];
 
 const experiences = [
-
+  {
+    title: "Customer Relations Specialist",
+    company_name: "Inlibro inc",
+    icon: clife,
+    iconBg: "#383E56",
+    date: "2023 NOV - Present",
+    points: [
+      "Leverage IBM Mainframe and SAB to thoroughly resolve issues and discrepancies.",
+      "Assume accountability for addressing the challenges encountered by our clients and providers on a daily basis.",
+      "Handle issues such as payment processing failures and system discrepancies regarding provider information.",
+      "Utilize industry-leading software solutions such as Salesforce and IBM software.",
+    ],
+  },
+  {
+    title: "FULL STACK DEVELOPER",
+    company_name: "McGill university health center",
+    icon: muhc,
+    iconBg: "#383E56",
+    date: "2023 APR - 2023 NOV",
+    points: [
+      `Developed a streamlined content uploading system for the MUHC website's "MUHC in
+      the Media" section, facilitating easier content management and prominently featuring
+      it on the website's homepage. This initiative involved creating requisite 􀂦les, themes,
+      and blocks.`,
+      `Implemented a ticketing system to enable internal teams to e􀂨ciently report, track,
+      and resolve bugs, ensuring greater visibility, reproducibility, and resolution.`,
+      `Implementing responsive design and ensuring cross-browser compatibility.`,
+      `Participating in code reviews and providing constructive feedback to other developers.`,
+    ],
+  },
   {
     title: "Full stack developer - Intern",
     company_name: "Inlibro inc",
-    icon: starbucks,
+    icon: inlibro,
     iconBg: "#383E56",
     date: "April 2021 - Augest 2021",
     points: [
@@ -125,44 +161,18 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  
   {
-    title: "Full stack developer - Intern",
-    company_name: "Inlibro inc",
-    icon: starbucks,
+    title: "Web Developer (Freelance)",
+    company_name: "H&A solutions (My company)",
+    icon: meta,
     iconBg: "#383E56",
-    date: "April 2021 - Augest 2021",
+    date: "2019 - present",
     points: [
-      "Developing and maintaining web applications using Linux, github, perl, PHP and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack developer - Intern",
-    company_name: "Inlibro inc",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "April 2021 - Augest 2021",
-    points: [
-      "Developing and maintaining web applications using Linux, github, perl, PHP and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack developer",
-    company_name: "McGill University Health Centre",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "April 2023 - November 2023",
-    points: [
-      "Developing and maintaining web applications using Drupal,Twig and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Design and develop complex system as a ticketing system, etc.",
+      "Offering freelance services in web, mobile, and desktop application development.",
+      "Specializing in crafting custom solutions tailored to meet the unique needs of each client.",
+      "Focusing on innovation and efficiency to deliver high-quality applications.",
+      "Enhancing user experience and driving business growth through innovative solutions.",
     ],
   },
 ];
@@ -196,25 +206,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Love Of My Life (LOML)",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search and find a partner, fully made with PHP and phpmyadmin for database. Also, it has a messaging system.",
     tags: [
       {
-        name: "react",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "phpmysql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: loml,
+    source_code_link: "https://github.com/harfy345/LOML",
   },
   {
     name: "Job IT",
@@ -222,42 +232,22 @@ const projects = [
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Flask",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "sqlalchemy",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: py_flask,
+    source_code_link: "https://github.com/harfy345/python-flask-website-with-auth",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
