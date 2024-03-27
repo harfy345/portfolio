@@ -33,10 +33,10 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+    console.log(form.email);
     emailjs
       .send(
-        'service_isdr736',
+        'service_hgqzljf',
         'template_4w0xw9s',
         {
           from_name: form.name,
@@ -44,6 +44,7 @@ const Contact = () => {
           from_email: form.email,
           to_email: "hakam.almotlk345@gmail.com",
           message: form.message,
+          email:form.email
         },
         'SqCgnj2cyq1L95yIj'
       )
