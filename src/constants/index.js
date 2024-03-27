@@ -227,7 +227,7 @@ const projects = [
     source_code_link: "https://github.com/harfy345/LOML",
   },
   {
-    name: "Scalable Python-flask project",
+    name: "Scalable Python-flask site",
     description:
       "Web application that enables users to add, remove their notes from their accounts, fully scalable and has auth.",
     tags: [
