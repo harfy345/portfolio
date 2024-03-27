@@ -14,7 +14,7 @@ const Earth = () => {
 
 const EarthCanvas = () => {
   return (
-    <Canvas
+    <Canvas style={{ maxWidth: '800px', maxHeight: '600px', width: '100%', height: '100%', position: 'relative' }}
       shadows
       frameloop='demand'
       dpr={[1, 2]}
