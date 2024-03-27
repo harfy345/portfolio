@@ -54,7 +54,7 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
-    <Canvas style={{ maxWidth: '1900px', maxHeight: '1700px', width: '100%', height: '100%', position: 'relative' }}
+    <Canvas
       frameloop='demand'
       shadows
       dpr={[1, 2]}
