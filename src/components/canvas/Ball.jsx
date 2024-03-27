@@ -39,7 +39,8 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas  
+    <Canvas style={{ maxWidth: '300px', maxHeight: '300px', width: '100%', height: '100%', position: 'relative' }}
+      frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true}}
     >
