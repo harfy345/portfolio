@@ -34,12 +34,14 @@ import inlibro from "./company/inlibro.jpeg";
 
 import loml from "./loml.png";
 import py_flask from "./py-flask.png";
+import yoom from "./yoom.png";
 
 
 export {
   logo,
   py_flask,
   php,
+  yoom,
   loml,
   inlibro,
   clife,

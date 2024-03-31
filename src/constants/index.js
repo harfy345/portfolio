@@ -4,6 +4,7 @@ import {
   creator,
   web,
   loml,
+  yoom,
   py_flask,
   javascript,
   typescript,
@@ -120,7 +121,7 @@ const technologies = [
 const experiences = [
   {
     title: "Customer Relations Specialist",
-    company_name: "Inlibro inc",
+    company_name: "Canada life",
     icon: clife,
     iconBg: "#383E56",
     date: "2023 NOV - Present",
@@ -247,7 +248,27 @@ const projects = [
     image: py_flask,
     source_code_link: "https://github.com/harfy345/python-flask-website-with-auth",
   },
-  
+  {
+    name: "Yoom",
+    description:
+      "Secure and stylish virtual meetings with Yoom, featuring Next.js for performance, Clerk for authentication, and Tailwind CSS for sleek design",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yoom,
+    source_code_link: "https://github.com/harfy345/Yoom",
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
