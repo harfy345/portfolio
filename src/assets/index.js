@@ -33,11 +33,13 @@ import inlibro from "./company/inlibro.jpeg";
 
 
 import loml from "./loml.png";
+import aora from "./Aora.jpeg";
 import py_flask from "./py-flask.png";
 import yoom from "./yoom.png";
 
 
 export {
+  aora,
   logo,
   py_flask,
   php,

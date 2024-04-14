@@ -7,23 +7,14 @@ import {
   yoom,
   py_flask,
   javascript,
-  typescript,
+
   php,
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
+
   meta,
-  starbucks,
-  tesla,
-  shopify,
-  threejs,
+  aora,
   muhc,
   clife,
   inlibro
@@ -207,6 +198,48 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Aora AI",
+    description:
+      "full stack react native app using appwrite for the backend and the storage. An app to share AI generated video",
+    tags: [
+      {
+        name: "ReactNative",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "NativeWind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aora,
+    source_code_link: "https://github.com/harfy345/Aora-react-native",
+  },
+  {
+    name: "Yoom",
+    description:
+      "Secure and stylish virtual meetings with Yoom, featuring Next.js for performance, Clerk for authentication, and Tailwind CSS for sleek design",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yoom,
+    source_code_link: "https://github.com/harfy345/Yoom",
+  },
+  {
     name: "Love Of My Life (LOML)",
     description:
       "Web-based platform that allows users to search and find a partner, fully made with PHP and phpmyadmin for database. Also, it has a messaging system.",
@@ -248,27 +281,7 @@ const projects = [
     image: py_flask,
     source_code_link: "https://github.com/harfy345/python-flask-website-with-auth",
   },
-  {
-    name: "Yoom",
-    description:
-      "Secure and stylish virtual meetings with Yoom, featuring Next.js for performance, Clerk for authentication, and Tailwind CSS for sleek design",
-    tags: [
-      {
-        name: "Nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Clerk",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: yoom,
-    source_code_link: "https://github.com/harfy345/Yoom",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
