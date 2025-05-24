@@ -17,7 +17,14 @@ import {
   aora,
   muhc,
   clife,
-  inlibro
+  inlibro,
+  morganStanley,
+  systemexAutomation,
+  nodejs,
+  tailwind,
+  git,
+  docker,
+  fdm,
 } from "../assets";
 
 export const navLinks = [
@@ -79,14 +86,14 @@ const technologies = [
     name: "PHP",
     icon: php,
   },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
   // {
   //   name: "MongoDB",
   //   icon: mongodb,
@@ -95,32 +102,62 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
+  {
+    name: "git",
+    icon: git,
+  },
   // {
   //   name: "figma",
   //   icon: figma,
   // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
   {
-    title: "Customer Relations Specialist",
-    company_name: "Canada life",
-    icon: clife,
+    title: "Software Developer - Automation/Integration",
+    company_name: "Systemex Automation",
+    icon: systemexAutomation,
     iconBg: "#383E56",
-    date: "2023 NOV - Present",
+    date: "25 MAR - Present",
     points: [
-      "Leverage IBM Mainframe and SAB to thoroughly resolve issues and discrepancies.",
-      "Assume accountability for addressing the challenges encountered by our clients and providers on a daily basis.",
-      "Handle issues such as payment processing failures and system discrepancies regarding provider information.",
-      "Utilize industry-leading software solutions such as Salesforce and IBM software.",
+      "Project Leadership: Successfully lead projects from concept to deployment, managing the entire lifecycle including requirements gathering, design, development, testing, and deployment.",
+      "Client Interaction: Collaborated with clients to understand and document chnical and functional requirements, ensuring solutions meet their needs.",
+    "Team Support: Provided technical assistance and mentorship to colleagues, resolving complex issues in their projects and improving overall team productivity.",
+    "Robot Integration and Testing: Conducted rigorous testing of code on industrial robots, ensuring seamless functionality, performance, and integration within automated systems.",
+    ],
+  },
+   {
+    title: "Java/Scala Developer",
+    company_name: "Morgan Stanley",
+    icon: morganStanley,
+    iconBg: "#383E56",
+    date: "2024 MAR - 2025 MAR",
+    points: [
+      "Worked closely with business stakeholders to gather requirements and implement rulebased fraud detection modules.",
+      "Developed custom frameworks using Java and Scala, utilizing Apache Spark to process large volumes of transactions, trades, and account data.",
+      "Applied business-provided rules to identify suspicious activities and generate real-time fraud alerts.",
+      "Designed a robust system to efficiently distribute alerts to compliance officers, streamlining their review and investigation process.",
+      "Ensured 100% test case and code coverage for all modules, maintaining high-quality and reliable code.",
+      "Created multiple frameworks to improve code reusability.",
+      "Developed a scalable framework, improving fraud detection accuracy and reducing false positives.",
+    ],
+  },
+  {
+    title: "Software Engineer Consultant",
+    company_name: "FDM Group",
+    icon: fdm,
+    iconBg: "#383E56",
+    date: "2024 MAR - 2025 MAR",
+    points: [
+      "Worked on multiple projects, including developing web applications that integrated with OpenAI API for tools like budget calculators, resume scanners, and resume filtering systems.",
+      "Utilized Java Spring Boot for backend development, ensuring seamless API integration and efficient data processing.",
+      "Leveraged SQL for database management and optimized queries to handle large-scale data.",
+      "Focused on building scalable, reliable systems while maintaining high code quality and test coverage.",
+      "Built a fully customizable chatbot with a C# backend and Angular frontend, using OpenAI to answer questions related to any topic (in our case, it was our website), providing a seamless user support experience.",
     ],
   },
   {

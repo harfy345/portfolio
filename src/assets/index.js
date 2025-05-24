@@ -21,6 +21,7 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nodeJs from "./tech/nodejs.jpeg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -29,6 +30,9 @@ import muhc from "./company/muhc.png";
 import clife from "./company/clife.jpeg";
 import tesla from "./company/tesla.png";
 import inlibro from "./company/inlibro.jpeg";
+import morganStanley from "./company/Morgan-Stanley-Logo.jpg";
+import systemexAutomation from "./company/Systemex-Automation.jpg";
+import fdm from "./company/fdm.png";
 
 
 
@@ -72,5 +76,8 @@ export {
   starbucks,
   muhc,
   tesla,
- 
+  nodeJs,
+ morganStanley,
+ systemexAutomation,
+ fdm
 };
